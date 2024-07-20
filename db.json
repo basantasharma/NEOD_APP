@@ -1,0 +1,41 @@
+{
+    "onboarding" : [
+    {
+        "title" : "Welcome to the app",
+        "description" : "This is the first screen of the app",
+        "image" : "onboarding1"
+    },
+    {
+        "title" : "Second screen",
+        "description" : "This is the second screen of the app",
+        "image" : "onboarding2"
+    },
+    {
+        "title" : "Third screen",
+        "description" : "This is the third screen of the app",
+        "image" : "onboarding3"
+    }
+    ],
+    "welcomedata" : {
+        "title" : "Welcome",
+        "description" : "This is the welcome"
+    },
+    "countries" : [
+        {
+            "name" : "Australia",
+            "image" : "image_link",
+            "video_description" : "video_link",
+            "description" : [
+                "This is the first description",
+                "This is the second description",
+                "This is the third description"
+            ],
+            "text_description" : [
+                "This is the first text description",
+                "This is the second text description",
+                "This is the third text description",
+                "image links if any"
+            ]
+        }
+    ]
+}
