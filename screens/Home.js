@@ -9,7 +9,6 @@ import DrawerOpener from "../components/DrawerOpener";
 import User from "../components/icons/User";
 import Badal from "../components/icons/Badal";
 import BottomTab from "../components/BottomTab";
-import { FontAwesome, Ionicons } from "@expo/vector-icons";
 
 export const roots = {
   backgroundColor: "#3b82f6",

@@ -26,11 +26,6 @@
     },
     "web": {
       "favicon": "./assets/squrelogo.png"
-    },
-    "extra": {
-      "eas": {
-        "projectId": "6b34836f-dab6-4d80-af29-7266a313f809"
-      }
     }
   }
 }

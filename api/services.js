@@ -28,10 +28,8 @@ export const onboardingData = async () => {
 
 export const mainPagedata = async () => {
     try {
-        console.log("was here")
         const response = await fetch('https://neod.bsg.com.np/api/main/page');
         const data = await response.json();
-        console.log(data, "from data")
         return data;
     } catch (error) {
         throw new error("some error occured");

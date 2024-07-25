@@ -1,7 +1,6 @@
 import * as React from "react";
 import { View, StyleSheet, Text, Pressable, Alert, Button } from "react-native";
 import { roots } from "../screens/Home";
-import { Ionicons } from "@expo/vector-icons";
 import YoutubePlayer from "react-native-youtube-iframe";
 import Back from "./icons/Back";
 

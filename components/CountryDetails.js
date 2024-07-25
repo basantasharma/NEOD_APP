@@ -2,7 +2,6 @@ import { Image, Pressable, ScrollView, StyleSheet, Text, View } from "react-nati
 import React, { useEffect, useState } from "react";
 import { roots } from "../screens/Home";
 import Svg, { Path, Rect } from "react-native-svg";
-import { Ionicons } from "@expo/vector-icons";
 import { countryData } from "../api/services";
 import Loader from "./Loader";
 import DrawerOpener from "./DrawerOpener";
@@ -43,7 +42,7 @@ const CountryDetails = ({ navigation, route }) => {
           style={{ position: "absolute", top: 30, left: 10 }}
           onPress={() => navigation.goBack()}
         >
-          <Ionicons
+          {/* <Ionicons
             style={{
               backgroundColor: "white",
               color: roots.backgroundColor,
@@ -56,7 +55,8 @@ const CountryDetails = ({ navigation, route }) => {
             name="arrow-back"
             size={24}
             color="black"
-          />
+          /> */}
+          <Back />
         </Pressable>
         <View style={styles.headerMain}>
           <Image
@@ -93,7 +93,8 @@ const CountryDetails = ({ navigation, route }) => {
                         alignItems: "center",
                       }}
                     >
-                      <Ionicons name="information" size={12} color="white" />
+                      {/* <Ionicons name="information" size={12} color="white" /> */}
+                      <TextIcon />
                     </Pressable>
                   )}
 
