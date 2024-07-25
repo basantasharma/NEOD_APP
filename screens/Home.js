@@ -25,7 +25,6 @@ const Home = ({ navigation }) => {
     setLoading(true);
     mainPagedata()
       .then((data) => {
-        console.log(data, "data mainpage");
         setWelcomepageData(data);
         setLoading(false);
       })

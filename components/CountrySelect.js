@@ -10,7 +10,6 @@ import React from "react";
 import { data } from "./data";
 
 const CountrySelect = ({welcomepageData,  navigation }) => {
-  console.log(welcomepageData, "data")
   return (
     <View>
       <Text style={styles.header}>Select your desired country</Text>

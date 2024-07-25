@@ -15,7 +15,8 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.bsg.neod"
     },
     "android": {
       "adaptiveIcon": {
@@ -26,6 +27,11 @@
     },
     "web": {
       "favicon": "./assets/squrelogo.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "03c37dbe-6e04-41b2-bc92-24a910c439be"
+      }
     }
   }
 }
