@@ -37,16 +37,7 @@ const CountryText = ({ navigation, route, }) => {
           </View>
 
           {/* convert above map to flatlist and there should be 2 columns and image should contain all the available space add gap of 10 */}
-          <FlatList
-            data={images}
-            keyExtractor={(index) => index.toString()}
-            numColumns={2}
-            renderItem={({ item }) => {
-              return (
-                <TextDocumentImage item={item} images={images} activeImage={activeImage} setActiveImage={setActiveImage} />
-              );
-            }}
-          />
+          
  </View>
         <View style={styles.bulletsContainer}>
         <Text 

@@ -1,13 +1,13 @@
 {
   "expo": {
-    "name": "consultancy",
-    "slug": "consultancy",
+    "name": "NEOD",
+    "slug": "NEOD",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/logo.png",
+    "icon": "./assets/squrelogo.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/logo.png",
+      "image": "./assets/squrelogo.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -19,17 +19,17 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/squrelogo.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.dhiran55.consultancy"
+      "package": "com.bsg.neod"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/squrelogo.png"
     },
     "extra": {
       "eas": {
-        "projectId": "4b53242b-0d26-42a6-90a1-c11dfb0b836b"
+        "projectId": "6b34836f-dab6-4d80-af29-7266a313f809"
       }
     }
   }

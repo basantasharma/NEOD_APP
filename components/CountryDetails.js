@@ -82,6 +82,7 @@ const CountryDetails = ({ navigation, route }) => {
                         navigation.navigate("CountryReading", {
                           readingText: content?.readingText,
                           images: content?.images,
+                          country: countrydata?.country,
                         })
                       }
                       style={{
